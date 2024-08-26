@@ -6,9 +6,12 @@ import store from './store'
 
 const ReduxProvider = ({children}) => {
   return (
+    <div>
     <Provider store={store}>
-    {children}
+      {children}
     </Provider>
+    </div>
+  
   )
 }
 
